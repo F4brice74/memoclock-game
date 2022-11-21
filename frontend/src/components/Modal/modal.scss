@@ -1,0 +1,18 @@
+.modalContainer{
+    position: absolute;
+    top : 0;
+    margin-top: 50px;
+    width: 900px;
+    height: 800px;
+    background-color: black;
+    opacity: 30;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.modalSection {
+    display:flex;
+    flex-direction: column;
+    margin: 50px;
+    align-items: flex-start;
+}

@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.appButton {
+  width: 210px;
+  height: 50px;
+  font-size:18px;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  background-color: rgb(76, 235, 168);
+
+  &:hover {
+    background-color: rgb(50, 71, 165);
+  }
+  
+  &.disabled{
+    color: rgb(59, 59, 59);
+    background-color: rgb(112, 112, 112);
+    
+  }
+}
+
+p {
+  font-size: 0.6em;
+  padding: 0px;
+}
+
+li {
+  font-size: 0.6em;
+  padding: 0px
+}
